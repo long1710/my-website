@@ -17,21 +17,6 @@
     position: absolute;
 }
 
-.project {
-    height: 100vh;
-    background-color: aqua;
-    text-align: center;
-}
-
-    .project h4 {
-        display: inline-block;
-        font-size: 50px;
-        margin: 120px;
-    }
-
-        .project h4:hover {
-            text-decoration: underline;
-        }
 
 /*customize both prev and forward button*/
 .prev, .forward {
@@ -77,7 +62,7 @@
 /*3D transform*/
 
 .Container {
-   
+
     position: relative;
     top: 50%;
     left: 50%;

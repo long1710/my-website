@@ -1,0 +1,43 @@
+.project {
+    height: 80vh;
+    text-align: top;
+    position: relative;
+}
+    .project h1{
+        text-align:center;
+
+    }
+    .project a{
+        color:blue;
+        font-size: 16px;
+        text-decoration: none;
+        margin: 12px;
+    }
+    .project a:hover{
+        color: #00008b;
+        font-size: 16px;
+        margin: 12px;
+        text-decoration:underline;
+    }
+    .project h6{
+        font-size: 16px;
+        margin: 12px;
+    }
+
+
+
+ .chess, .score, .minesweeper, .timeTables{
+  width:30%; height:300px; margin:20px; float: left;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+/* image + hover */
+.chess:hover, .score:hover, .minesweeper:hover, .timeTables:hover{
+    -moz-transform: translate(-2px, -2px);
+    -ms-transform: translate(-2px, -2px);
+    -o-transform: translate(-2px, -2px);
+    -webkit-transform: translate(-2px, -2px);
+    transform: translate(-2px, -2px)
+}
