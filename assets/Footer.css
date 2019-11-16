@@ -1,12 +1,22 @@
 ﻿.contact{
+    text-align: center;
     background-color:black;
     margin:-10vh;
-    height:20vh;
+    height:25vh;
 }
 .contact h4{
     color:white;
     text-align:center;
 }
-i{
-    text-align:center;
+.contactIcon{
+  margin: 10px;
+}
+.topButton{
+  text-align:center;
+  background-color:white;
+  display:block;
+  height: 30px;
+}
+.topButton h4{
+  color:black; !important;
 }

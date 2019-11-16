@@ -4,13 +4,15 @@
 <head>
     <meta charset="utf-8" />
     <title>Le Duy Long</title>
-    <link href="/assets/StyleSheet2.css" type="text/css" rel="stylesheet" /> <!-- this is for the nav bar-->
-    <link href="/assets/background 1.css" type="text/css" rel="stylesheet" />
-    <link href="/assets/Footer.css" type="text/css" rel="stylesheet" />
+    <link href="assets/StyleSheet2.css" type="text/css" rel="stylesheet" /> <!-- this is for the nav bar-->
+    <link href="assets/background 1.css" type="text/css" rel="stylesheet" />
+    <link href="assets/Footer.css" type="text/css" rel="stylesheet" />
+    <link href="assets/project.css" type="text/css" rel="stylesheet" />
     <script type="text/javascript" src="/assets/slide show.js"></script>
 </head>
 <body>
     <div class="navigation">
+        <section id="home_section"></section>
         <a class="active" href="#home">Home</a>
         <a href="#Project">Project</a>
         <a href="#Contact">Contact</a>
@@ -60,18 +62,50 @@
         </div>
     </div>
     <div class="project">
-        <h4>Project 1</h4>
-        <h4>Project 2</h4>
-        <h4>Project 3</h4>
-        <h4>Project 4</h4>
-        <h4>Project 5</h4>
-        <h4>Project 6</h4>
+      <h1> Some project that I work on</h1>
+      <section id="Project"></section>
+
+      <div class = "chess">
+        <div class = "chessImage">
+          <img src="assets/chess.jpg" width = "100" height = "100">
+        </div>
+        <div class = "descriptions">
+          <a href = "https://github.com/long1710/traditional-game/blob/master/chess/chess%20logic">Chess</a>
+          <p> a board game of strategic skill for two players, played on a checkered board </p>
+        </div>
+      </div>
+
+
+      <div class = "score">
+        <div class ="scoreImage">
+          <img src = "assets/soccer.jpg" width = "120" height = "100">
+        </div>
+        <div class ="descriptions">
+          <a href = "https://github.com/long1710/parsingScore">Parsing score</a>
+          <p> a simple javascript program to take result from webpage to parse to mine </p>
+        </div>
+      </div>
+
+      <div class = "minesweeper">
+        <div class ="minesweeperImage">
+          <img src = "assets/minesweeper.jpg" width ="100" height ="100">
+        </div>
+        <div>
+          <a href ="https://github.com/long1710/class-project/tree/master/minesweeper%20(CS%20208-%20big%20quiz)">Minesweeper</a>
+          <p> a simple game which purpose is to find or mark all the mine using the clue </p>
+        </div>
+      </div>
     </div>
     <!-- Footer -->
     <div class="contact">
+        <section id="Contact"></section>
         <h4>Contact me!</h4>
-        <div class="icon"></div>
-        <i src="icon\github.png"></i>
+        <image class = "contactIcon" src = "assets/facebook.jpg" width = "50" height = "50">
+        <image class = "contactIcon" src = "assets/github.png" width = "50" height = "50" >
+        <image class = "contactIcon" src = "assets/linkedin.png" width ="50" height = "50">
+        <div class = "topButton" href = "#home_section">
+          <a href = #home_section> To the top </a>
+        </div>
     </div>
 </body>
 </html>
